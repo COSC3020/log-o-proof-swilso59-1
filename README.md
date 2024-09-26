@@ -32,3 +32,16 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 
 I used this website to verify I had the change of base formula correct. 
 - https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:change-of-base/a/logarithm-change-of-base-rule-intro
+
+Based off what was covered in lecture. I remembered alot of this assigment and using the change of base formula. 
+
+I was getting stuck in a few spots so looked at a few repositories.
+- https://github.com/COSC3020/log-o-proof-noah-mulvaney
+- https://github.com/COSC3020/log-o-proof-Powerfuljackell
+- https://github.com/COSC3020/log-o-proof-swilso59
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+
