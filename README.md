@@ -25,7 +25,7 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
   - $T(n) \le c \cdot \frac{\log_{5}(n)}{\log_{5}(2)}\space\forall n \geq n_0$
 - pull out the constant factor:
   - $\frac{1}{\log_{5}(2)}$
-- This constant factor is not dependant on $n$ and can be combined with $c$
+- This constant factor is not dependent on $n$ and can be combined with $c$
 - This give us:
   - $T(n) \leq \frac{c}{\log_{5}(2)}\cdot \log_{5}(n)\space\forall n \geq n_0$
 - This shows that $T(n) \in O(\log_{5}(n))$
