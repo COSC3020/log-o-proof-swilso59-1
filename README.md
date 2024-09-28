@@ -25,11 +25,13 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
   - $T(n) \le c \cdot \frac{\log_{5}(n)}{\log_{5}(2)}\space\forall n \geq n_0$
 - pull out the constant factor:
   - $\frac{1}{\log_{5}(2)}$
+- This constant factor is not dependant on $n$ and can be combined with $c$
 - This give us:
-  - $T(n) \leq c \cdot \frac{1}{\log_{5}(2)}\cdot \log_{5}(n)\space\forall n \geq n_0$
-- This shows that $T(n) \in O(\log_{5}(n)$
-- In the definition of Big $O$, $c$ can be any constant. Meaning we can switch the bases without it affecting the Big $O$ notation
-
+  - $T(n) \leq \frac{c}{\log_{5}(2)}\cdot \log_{5}(n)\space\forall n \geq n_0$
+- This shows that $T(n) \in O(\log_{5}(n))$
+- This process can be used to go from $T(n) \in O(\log_{5}(n))$ to $T(n) \in O(\log_{2}(n))$
+- In the definition of Big $O$, $c$ can be any positive constant. Meaning we can switch the bases without it affecting the Big $O$ 
+  notation
 
 I used this website to verify I had the change of base formula correct. 
 - https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:change-of-base/a/logarithm-change-of-base-rule-intro
